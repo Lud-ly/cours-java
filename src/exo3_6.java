@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-class AgeException extends Exception {
-
-    public AgeException(String str) {
-        System.out.println(str);
-    }
-}
-
 public class exo3_6 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
