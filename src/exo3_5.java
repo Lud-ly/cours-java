@@ -7,10 +7,15 @@ public class exo3_5 {
         double number = s.nextInt();
 
         if (number < 0)
+        {
             System.out.println(number + "is a negative number");
-        else if (number > 0)
+        } else if (number > 0)
+        {
             System.out.println(number + "is a positive number");
-        else
+        } else
+       {
             System.out.println(number + "is T0T0");
+        }
     }
 }
+
