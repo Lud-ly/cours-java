@@ -18,7 +18,7 @@ public class exo5_11 {
             if (n != 0 && p != 0)
             {
                 x = x * (i + n - p);
-                y = y * (i*p);
+                y = y * (i * p);
             }
         }
 

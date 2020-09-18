@@ -14,4 +14,3 @@ public class exo2_3 {
                 System.out.println("le prix TTC est de:"+ result + "€");
     }
 }
-
