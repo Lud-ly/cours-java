@@ -1,7 +1,7 @@
 public class exo6_17 {
     public static void tri_insertion(int tab[]) {
         /*ALGO
-        taille en numerique de la longeur du tableau
+        var taille en numerique de la longeur du tableau
         pour i =1 à <taille
         j=i-1
         tant que j>=0 et tab[j]>index
