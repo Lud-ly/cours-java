@@ -18,7 +18,7 @@ class exo5_2 {
         while (coups!=0){
             System.out.println("Il vous reste "+coups+" coups pour trouver un nombre entre "+ min +" et "+ max+".");
             coups--;
-            System.out.println("Choisissez un nombre.");
+            System.out.println("Choisissez un nombre:");
             int choix = scanner.nextInt();
             {if (coups == 0);
                 System.out.println("c'est perdu!");

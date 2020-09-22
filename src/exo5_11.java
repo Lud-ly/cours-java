@@ -22,8 +22,8 @@ public class exo5_11 {
             }
         }
 
-        System.out.println("dans l'ordre : une chance sur"+ x +"de gagner");
-        System.out.println("dans le desordre : une chance sur"+ y +"de gagner");
+        System.out.println("dans l'ordre : une chance sur "+ x +" de gagner");
+        System.out.println("dans le desordre : une chance sur "+ y +" de gagner");
         }
 
 
