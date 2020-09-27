@@ -34,12 +34,12 @@ public class exo9_6 {
             char c = 0;
             String mot = "";
             char d;
-            // ajout du i++ afin de parcourir tous les caractere de ton String
+            // ajout du i++ afin de parcourir tous les caractere du String
             for (int i = 0; i < enclair.length(); i++) {
                 c = enclair.charAt(i);
                 d = (decalecaractere(c, this.decalage));
                 mot += Character.toString(d);
-                // suppression du return, sinon au premier caractere tu sors de la boucle
+                // suppression du return, sinon au premier caractere on sors de la boucle
             }
             return mot;
         }

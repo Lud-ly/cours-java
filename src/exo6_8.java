@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class exo6_8 {
-    private static Scanner sc;
+    public static Scanner sc;
     public static void main(String[] args) {
         int size,i;
         int positiveCount = 0;

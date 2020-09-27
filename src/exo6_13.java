@@ -7,11 +7,10 @@ public class exo6_13 {
         int max = 0;
         int y = 0;
         int pos = 0;
-        System.out.print("entrer 5 nombres :");
+        System.out.print("entrer 5 nombres ->");
         for(int i =0;i<5;i++){
-            System.out.print("entrer un nombre :");
+            System.out.print(" entrer un nombre :");
             nb = sc.nextInt();
-
             if (nb >max){
                 max = nb;
                 pos = y;
