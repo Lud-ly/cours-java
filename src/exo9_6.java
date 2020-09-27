@@ -9,7 +9,7 @@ public class exo9_6 {
         Chaine chaine = new Chaine(s, decalage);
 
         System.out.println("Chaine en clair : " + chaine.decrypte());
-        System.out.println("Chaine cryptee : " + chaine.crypte());
+        System.out.println("Chaine cryptee decale de 1lettre: " + chaine.crypte());
 
     }
     public static class Chaine{
@@ -45,31 +45,4 @@ public class exo9_6 {
         }
     }
 }
- /*
-        Variables Bla, Cod, Alpha en Caractère
-        Variables i, Position en Entier
-        Début
-        Ecrire "Entrez la phrase à coder : "
-        Lire phrase
-        Alpha ← "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        Pour i ← 1 à Len(Bla)
-
-       si
-        Sinon
-        Cod ← Cod & "A"
-        FinSi
-        i Suivant
-        Bla ← Cod
-        Ecrire "La phrase codée est : ", Bla
-        Fin
-        String phrase = "";
-        String newPhrase = "";
-        int i;
-        int position;
-        int decalage;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Entrez la phrase à coder :");
-        phrase = sc.next();
-        String alphabet = "ABCDEFGHIJKLMNOPKRSTUVWXYZ";
-        System.out.println(phrase);*/
 

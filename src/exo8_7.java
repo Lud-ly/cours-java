@@ -92,7 +92,7 @@ public class exo8_7 {
         boolean correct = false;
         int res = 0;
         while (!correct) {
-            System.out.println("quel mouvement voulez-vous faire?0.1.2ou3");
+            System.out.println("quel mouvement voulez-vous faire? 0 , 1 , 2 ou 3 : ");
             res = sc.nextInt();
             if(res >=0 && res<=3){
                 correct=true;

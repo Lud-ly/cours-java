@@ -1,20 +1,10 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class exo7_7 {
     public static void main(String[] args) {
-        /*ALGO
-        i,j en numerique
-        m,n = longeur des tab 1&2
-crée list1 =[15,25,35,4]
-crée list2 = [55, 65, 75, 8]
-ecrire  list1 list2
-redim t3
-trier les list
-list 3=itertools.chain de list1 et2
-trier list 3
-ecrire list3
+        Scanner sc = new Scanner(System.in);
 
-*/
             int[] t1 = {2, 4, 13, 24, 25};
             int[] t2 = {26, 20, 19, 11, 1};
             System.out.println("tableau 1"+ Arrays.toString(t1));

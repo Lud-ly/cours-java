@@ -17,8 +17,7 @@ public class exo6_17 {
         }
         tri_insertion(tab);
         sc.close();
-
-
+        System.out.println("tri par insertion");
         for ( int j =0;j < tab_length;j++) {
             System.out.print(tab[j]+", ");
         }
@@ -47,15 +46,3 @@ public class exo6_17 {
     }
 
 }
- /*ALGO
-        var taille en numerique de la longeur du tableau
-        pour i =1 à <taille
-        j=i-1
-        tant que j>=0 et tab[j]>index
-        tab[j+1] = tab[j]
-        j--
-        tab[j+1]=index
-         int[] tab = {1, 12, 4, 5, 93, 21, 8, 11}
-         ecrire tab avant insertion
-         ecrire tab apres insertion
-        */

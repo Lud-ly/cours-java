@@ -19,20 +19,6 @@ public class exo9_5 {
         newPhrase = sc.next();
         phrase = phrase.replace(phrase,newPhrase);
         System.out.println("voici la nouvelle phrase"+ phrase);*/
-         /*
-        ALGO
-       phrase en String
-       newPhrase en String
-       delete en numerique;
 
-        Début
-        Ecrire "Entrez une phrase : "
-        Lire phrase
-        Ecrire "Entrez le rang du caractère à supprimer : "
-        Lire delete
-        Ecrire "Entrez la nouvelle phrase : "
-        Lire newphrase
-        Ecrire "La nouvelle phrase est : ", phrase
-        Fin"""*/
     }
 }
